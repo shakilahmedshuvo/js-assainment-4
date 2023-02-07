@@ -16,12 +16,13 @@ function evenOdd(inputString) {
 
 // 3.isLGSeven Function
 function isLGSeven(num) {
-    if (num < 7) {
+    if (num <= 7) {
         return 7 - num;
     } else {
         return num * 2;
     }
 }
+
 
 // 4.findingBadData Function
 function findingBadData(numbers) {
@@ -34,6 +35,8 @@ function findingBadData(numbers) {
     return count;
 }
 
-
-
-
+// 5.gemsToDiamond function
+function gemsToDiamond(gems1, gems2, gems3) {
+    const totalDiamonds = gems1 * 21 + gems2 * 32 + gems3 * 43;
+    return totalDiamonds > 2000 ? totalDiamonds - 2000 : totalDiamonds;
+}
