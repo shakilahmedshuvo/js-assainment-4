@@ -4,7 +4,7 @@ function mindGame(inputNumber) {
     return number;
 }
 
-// 2.evenOdd Functon
+// 2.evenOdd Function
 function evenOdd(inputString) {
     let length = inputString.length;
     if (length % 2 === 0) {
